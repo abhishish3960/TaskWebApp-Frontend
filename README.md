@@ -2,6 +2,7 @@
 
 Welcome to the Task Management Frontend application built with Angular. This application provides a user-friendly interface for managing tasks.
 
+
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -47,7 +48,62 @@ Before starting, ensure you have the following installed:
 4. **Access the application in your browser:**
    http://localhost:4200
 
+## Folder Structure
+
+- **src/app/**: Contains the main application components, services, and modules.
+- **src/assets/**: Static assets such as images, fonts, etc.
+- **src/environments/**: Environment configuration files (e.g., environment.prod.ts, environment.ts).
+
+## Development
+
+### Component Structure
+
+The project organizes components, services, and modules under the `src/app/` directory:
+
+- **Components**: Found in `src/app/components/`, each manages specific UI and functionality aspects.
+- **Services**: Located in `src/app/services/`, they handle data retrieval, manipulation, and backend API communication.
+- **Modules**: Modules like `AppModule` and feature modules group related components and services.
+
+### Services and API Integration
+
+- **TaskService**: Manages CRUD operations for tasks using Angular's HttpClient module to interact with the backend API.
+
+### Routing
+
+- **Angular Router**: Configured in `src/app/app-routing.module.ts` for seamless navigation between components and views.
+
+### State Management
+
+- **Data Binding**: Utilizes Angular's two-way data binding and reactive forms (`@angular/forms`) for efficient data handling and validation.
+
+## Build and Deployment
+
+### Building the Application
+
+To compile the application for production:
+
+1. **Build Command**: Execute the following Angular CLI command to create a production build:
+   ```bash
+   ng build --prod
+
+
+## Contributing
+
+Contributions are welcome! Fork the repository and submit a pull request with your enhancements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- [Abhishek Ashish](https://github.com/abhishish3960)
+
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Deployment
+
+The application is deployed and accessible at: [TaskWebApp](https://taskwebapp.netlify.app)
