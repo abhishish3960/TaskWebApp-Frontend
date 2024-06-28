@@ -85,7 +85,7 @@ To compile the application for production:
 1. **Build Command**: Execute the following Angular CLI command to create a production build:
    ```bash
    ng build --prod
-
+  The build artifacts will be stored in the `dist/` directory.
 
 ## Contributing
 
@@ -100,10 +100,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Abhishek Ashish](https://github.com/abhishish3960)
 
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Deployment
+## Project Link
 
 The application is deployed and accessible at: [TaskWebApp](https://taskwebapp.netlify.app)
