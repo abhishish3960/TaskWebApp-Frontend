@@ -44,22 +44,8 @@ Before starting, ensure you have the following installed:
 3. **Run the Application:**
    ```bash
    ng serve
-
-
-
-
-
-
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+4. **Access the application in your browser:**
+   http://localhost:4200
 
 ## Build
 
