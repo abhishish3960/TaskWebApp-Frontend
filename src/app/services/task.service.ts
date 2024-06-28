@@ -2,12 +2,12 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Task } from '../models/task.model';
-
+import { environment } from '../../environments/environment';
 @Injectable({
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = 'https://taskwebapp.onrender.com';
+  private apiUrl = environment.apiUrl;
 
   constructor(private http: HttpClient) { }
 
