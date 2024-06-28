@@ -1,6 +1,6 @@
 # Task Management Frontend (Angular)
 
-Welcome to the Task Management Frontend application built with Angular. This application provides a user-friendly interface for managing tasks.
+This frontend application built with Angular serves as a robust task management system designed to streamline task organization and tracking. It features CRUD (Create, Read, Update, Delete) operations for tasks, advanced filtering and sorting capabilities, dynamic user interface components using Angular Material, and seamless integration with backend APIs for efficient data management. The application offers intuitive task duplication, notes management, and status toggling functionalities to enhance user productivity and workflow management.
 
 
 ## Table of Contents
